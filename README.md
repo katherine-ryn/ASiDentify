@@ -6,10 +6,11 @@ This repository contains the data and scripts required to run ASiDentify.
 1. Download this repository to your local machine.
 2. Some files are too large to store in this repository. Download the following files to the /data folder:
 * Download 'RNA-Seq Gencode v10 summarized to genes' from [https://www.brainspan.org/static/download.html](https://www.brainspan.org/static/download.html). Extract the zipped folder and save the files in a new folder named 'BrainSpan_Gencode_v10_genes_matrix'.
-* 
+* Download 'Gene Expression by Cluster, trimmed means' from [https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq](https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq). Save to the /data folder, named 'multiple_cortical_trimmed_means.csv'.
 
 ## Prepare input features and gene labels. 
-2. Run `make_ASiD_dataset_PC.R` to generate the input data for ASiDentify. 
+3. Run `getRPKM_Burke.R` to generate 'Burke_metadata.csv' and 'Burke_timecourse.csv'.
+4. Run `make_ASiD_dataset_PC.R` to generate the input data for ASiDentify. 
 3. Run `generating_RBP_lists.R` to generate the 4 input dataframes for the ASiD model of RBPs (comprehensive, high-confidence, canonical and non-canonical). 
 4. Run `make_ASiD_dataset_RBP.R` to generate the input data for ASiDentify - modified for RBPs. 
 5. Run `make_ASiD_dataset_CR.R` to generate the input data for ASiDentify - modified for chromatin regulators. 
