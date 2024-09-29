@@ -9,7 +9,7 @@
 
 library(SummarizedExperiment)
 
-setwd("D:/ASiD_FINAL") # Change this to the path that contains the ASiD folder
+setwd("") # Change this to the path that contains the ASiD folder
 
 load("./data/libd_stemcell_timecourse_rseGene_n157.rda")
 
