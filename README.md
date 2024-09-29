@@ -4,6 +4,9 @@ This repository contains the data and scripts required to run ASiDentify.
 
 ## Instructions
 1. Download this repository to your local machine.
+2. Some files are too large to store in this repository. Download the following files to the /data folder:
+* Download 'RNA-Seq Gencode v10 summarized to genes' from [https://www.brainspan.org/static/download.html](https://www.brainspan.org/static/download.html). Extract the zipped folder and save the files in a new folder named 'BrainSpan_Gencode_v10_genes_matrix'.
+* 
 
 ## Prepare input features and gene labels. 
 2. Run `make_ASiD_dataset_PC.R` to generate the input data for ASiDentify. 
