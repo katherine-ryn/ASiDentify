@@ -22,7 +22,7 @@ This repository contains the data and scripts required to run ASiDentify.
 9. Run `analyzing_RBP_output.R` to analyze the output of the modified ASiD model for RBPs. This script converts beta coefficients to odds ratios, calculates confidence intervals and AUROC and AUPRC values. The output data, including gene predictions, are available in 'RBP_output.xlsx'. This script also produces Figures S3 and S4.
 * Prerequisite: This script requires running section 2 from `nested_cv.R`.
 
-10. Run `analyzing_PC_output.R` to analyze the output of the modified ASiD model for chromatin regulators. This script converts beta coefficients to odds ratios, calculates confidence intervals and AUROC and AUPRC values. The output data, including gene predictions, are available in 'CR_output.xlsx'. This script also produces Figure S5.
+10. Run `analyzing_CR_output.R` to analyze the output of the modified ASiD model for chromatin regulators. This script converts beta coefficients to odds ratios, calculates confidence intervals and AUROC and AUPRC values. The output data, including gene predictions, are available in 'CR_output.xlsx'. This script also produces Figure S5.
 * Prerequisite: This script requires running section 3 from `nested_cv.R`.
 
 11. Run `analyzing_random_output.R` to analyze the ten random sets of 819 genes. This script converts beta coefficients to odds ratios, and calculates confidence intervals. The output data are available in 'Random_output.xlsx'. 
