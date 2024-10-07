@@ -5,7 +5,7 @@ This repository contains the data and scripts required to run ASiDentify.
 ## Instructions
 1. Download this repository to your local machine.
 2. Some files are too large to store in this repository. Download the following files to the /data directory:
-* Download 'RNA-Seq Gencode v10 summarized to genes' from [https://www.brainspan.org/static/download.html](https://www.brainspan.org/static/download.html). Extract the zipped folder and save the files in a new directory named 'BrainSpan_Gencode_v10_genes_matrix'.
+* Download 'RNA-Seq Gencode v10 summarized to genes' from [https://www.brainspan.org/static/download.html](https://www.brainspan.org/static/download.html). Extract the zipped directory and save the files in a new directory named 'BrainSpan_Gencode_v10_genes_matrix' in the /data directory.
 * Download 'Gene Expression by Cluster, trimmed means' from [https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq](https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq). Save to the /data directory, named 'multiple_cortical_trimmed_means.csv'.
 
 ## Prepare input features and gene labels. 
