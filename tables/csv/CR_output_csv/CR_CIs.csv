@@ -1,0 +1,7 @@
+"variable","Mean","CI_low","CI_high","group"
+"Astrocyte Expression",1.01421014268289,0.989941246695298,1.03847903867048,"Chromatin regulators"
+"Excitatory Expression",1.489195056813,1.32650956751891,1.65188054610709,"Chromatin regulators"
+"LOEUF",0.583943029530063,0.474848968642095,0.69303709041803,"Chromatin regulators"
+"Microglia Expression",1.01655800236878,0.970585617740129,1.06253038699743,"Chromatin regulators"
+"Neuron expression (D77)",1.00967586684376,0.989647492625075,1.02970424106244,"Chromatin regulators"
+"Oligodendrocyte Expression",1.02329217894729,0.988694468055891,1.05788988983868,"Chromatin regulators"

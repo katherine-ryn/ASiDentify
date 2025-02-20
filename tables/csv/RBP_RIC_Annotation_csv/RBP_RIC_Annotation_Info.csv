@@ -1,0 +1,13 @@
+﻿"RBP_RIC_Annotation: details of the evidence supporting an RBP's classification for the 'comprehensive' list of 3,300 RBPs identified using RBPbase",
+,
+"3300 RBP: a table of RBPs annotated from a re-generated version of RBPbase. RBPbase was re-run, with the addition of the as.numeric function when reading in the Urdaneta et al. (2019) results. ",
+"RIC Studies: contains descriptions of RIC studies, and curation information from RBPbase. Adapted from Gebauer et al. 2021 [1] Table S1.",
+Annotation: contains description and curation informative for included annotations from RBPbase. Adapted from Gebauer et al. 2021 [1] Table S1.,
+,
+,
+,
+,
+"[1] Gebauer, F., Schwarzl, T.,  
+       Valcarcel, J. and Hentze, M.W., 2021.  
+       RNA-binding proteins in human genetic disease.  
+       Nature Reviews Genetics, 22(3), pp.185-198",RBPbase: https://rbpbase.shiny.embl.de
