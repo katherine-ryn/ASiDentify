@@ -37,3 +37,5 @@ This repository contains the data and scripts required to run ASiDentify.
 * Running `nested_cv.R` uses `nested_cv_funcs.R`, which contains the script to run the ASiDentify model. 
 * All .xlsx output files are also saved as .csv files in the /tables directory. 
 * All code was run on R version 4.3.3.
+* [![DOI](https://zenodo.org/badge/864926068.svg)](https://doi.org/10.5281/zenodo.14901532)
+
